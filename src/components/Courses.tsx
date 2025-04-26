@@ -1,6 +1,5 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { FileSpreadsheet, PresentationChart } from "lucide-react";
+import { FileSpreadsheet, Presentation } from "lucide-react";
 
 const Courses = () => {
   return (
@@ -32,7 +31,7 @@ const Courses = () => {
           <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
               <div className="h-12 w-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                <PresentationChart className="h-6 w-6 text-green-700" />
+                <Presentation className="h-6 w-6 text-green-700" />
               </div>
               <CardTitle>Power BI Completo</CardTitle>
               <CardDescription>Visualização de dados profissional</CardDescription>

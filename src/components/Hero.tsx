@@ -1,6 +1,5 @@
-
 import { Button } from "@/components/ui/button";
-import { FileSpreadsheet, PresentationChart } from "lucide-react";
+import { FileSpreadsheet, Presentation } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -28,7 +27,7 @@ const Hero = () => {
                 <span className="text-gray-600">Excel Avançado</span>
               </div>
               <div className="flex items-center gap-2">
-                <PresentationChart className="h-6 w-6 text-green-700" />
+                <Presentation className="h-6 w-6 text-green-700" />
                 <span className="text-gray-600">Power BI Completo</span>
               </div>
             </div>
